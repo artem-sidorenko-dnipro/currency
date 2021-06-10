@@ -9,6 +9,3 @@ def hello_world(request):
 def gen_password(request):
     password = gp()
     return HttpResponse(password)
-
-def foo():
-    pass
